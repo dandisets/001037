@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001037
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -9,31 +10,68 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Nair, Aditya (2024) Neural Implementation of a Line Attractor Encoding a
-  Behavioral State (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001037/draft
+citation: Nair, Aditya; NIH (2024) Causal evidence of a line attractor encoding an
+  affective state (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001037/draft
 contributor:
 - affiliation: []
   email: adi.nair@caltech.edu
+  identifier: 0000-0001-5242-5527
   includeInCitation: true
   name: Nair, Aditya
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
+  url: https://adinair.people.caltech.edu/
+- identifier: https://ror.org/006w34k90
+  includeInCitation: false
+  name: HHMI
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: RO1MH112593
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: NIH
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: RO1MH123612
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: NIH
+  schemaKey: Organization
+- awardNumber: RO1NS123916
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: true
+  name: NIH
+  schemaKey: Organization
+- awardNumber: National Science Scholarship
+  identifier: https://ror.org/059yjzn93
+  includeInCitation: false
+  name: Agency of Science, Technology and Research, Singapore
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-05-22T21:39:13.894493+00:00'
 description: 'This dataset provides neural and behavioural annotation data from the
-  paper: "Neural Implementation of a Line Attractor Encoding an Affective State".
-  Data is stored in the NWB format and contains GCaMP traces, behavioural annotation
-  (timing of behaviour), low-dimensional latent factors from dynamical models and
-  other metadata.'
+  paper: "Causal evidence of a line attractor encoding an affective state". Data is
+  stored in the NWB format and contains GCaMP traces, behavioural annotation (timing
+  of behaviour), low-dimensional latent factors from dynamical models and other metadata.'
+ethicsApproval: []
 id: DANDI:001037/draft
 identifier: DANDI:001037
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001037/versions/draft/assets/
-name: Neural Implementation of a Line Attractor Encoding a Behavioral State
+name: Causal evidence of a line attractor encoding an affective state
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
+studyTarget: []
 url: https://dandiarchive.org/dandiset/001037/draft
 version: draft
+wasGeneratedBy: []
