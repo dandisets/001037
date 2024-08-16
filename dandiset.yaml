@@ -77,6 +77,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-22T21:39:13.894493+00:00'
+datePublished: '2024-08-16T18:41:00.562934+00:00'
 description: 'This dataset provides neural and behavioural annotation data from the
   paper: "Causal evidence of a line attractor encoding an affective state". Data is
   stored in the NWB format and contains GCaMP traces, behavioural annotation (timing
@@ -91,6 +92,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001037/versions/draft/assets/
 name: Causal evidence of a line attractor encoding an affective state
 protocol: []
+publishedBy:
+  endDate: '2024-08-16T18:41:00.562934+00:00'
+  id: urn:uuid:209e6df7-f6d0-4252-964d-a11b1b435550
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-08-16T18:41:00.562934+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:66d71d7a-8e3b-4f45-b638-230f6c284ce6
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.1038/s41586-024-07915-x
   name: ' Causal evidence of a line attractor encoding an affective state.'
