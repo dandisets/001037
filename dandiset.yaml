@@ -31,7 +31,7 @@ assetsSummary:
   - BehavioralEpochs
   - ProcessingModule
 citation: Nair, Aditya (2024) Causal evidence of a line attractor encoding an affective
-  state (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001037/draft
+  state (Version 0.240816.1841) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.001037/0.240816.1841
 contributor:
 - affiliation: []
   email: adi.nair@caltech.edu
@@ -82,14 +82,15 @@ description: 'This dataset provides neural and behavioural annotation data from 
   paper: "Causal evidence of a line attractor encoding an affective state". Data is
   stored in the NWB format and contains GCaMP traces, behavioural annotation (timing
   of behaviour), low-dimensional latent factors from dynamical models and other metadata.'
+doi: 10.48324/dandi.001037/0.240816.1841
 ethicsApproval: []
-id: DANDI:001037/draft
+id: DANDI:001037/0.240816.1841
 identifier: DANDI:001037
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001037/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001037/0.240816.1841/assets.yaml
 name: Causal evidence of a line attractor encoding an affective state
 protocol: []
 publishedBy:
@@ -116,6 +117,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001037/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001037/0.240816.1841
+version: 0.240816.1841
 wasGeneratedBy: []
